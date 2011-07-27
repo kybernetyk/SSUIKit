@@ -12,7 +12,7 @@
 
 
 @interface SSImageEdit () //private category to get rid of warnings
-	
+- (void)setLoupeImage;	
 - (void)myAddTrackingArea;
 - (void)myRemoveTrackingArea;
 - (void)updateLoupeView: (CGPoint)position;

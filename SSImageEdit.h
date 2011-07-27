@@ -33,13 +33,9 @@
 @property (readonly) NSImage* _orgImage;
 #endif 
 
-- (void)setImageFromFile: (NSURL *) url;
+- (void)setImageFromFile: (NSURL *) url;	//TODO: remove this
 - (void)setZoomX:(float)xZoom;
 - (void)setZoomY:(float)yZoom;
-
 - (void)registerColorWell:(id)colorWell;
-- (void)setLoupeImage;
-
-
 
 @end
