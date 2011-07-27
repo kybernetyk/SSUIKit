@@ -1,0 +1,6 @@
+/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/SSAudioService.m: In function '-[SSAudioService loadAudioFileWithChar:]':
+/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/SSAudioService.m:32: error: 'CAAudioUnit' undeclared (first use in this function)
+/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/SSAudioService.m:32: error: (Each undeclared identifier is reported only once
+/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/SSAudioService.m:32: error: for each function it appears in.)
+/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/SSAudioService.m:32: error: expected ';' before 'fileAU'
+/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/SSAudioService.m:31: warning: unused variable 'theGraph'

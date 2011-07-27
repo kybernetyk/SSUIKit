@@ -1,0 +1,5 @@
+In file included from /Users/Simoon/Documents/XCode/GFX_Edit_View/accTutorial.m:9:
+/Users/Simoon/Documents/XCode/GFX_Edit_View/accTutorial.h:12:1: warning: "MAX" redefined
+/Users/Simoon/Documents/XCode/GFX_Edit_View/accTutorial.h:4474:97: warning: this is the location of the previous definition
+In file included from /Users/Simoon/Documents/XCode/GFX_Edit_View/accTutorial.m:9:
+/Users/Simoon/Documents/XCode/GFX_Edit_View/accTutorial.h:16: error: expected specifier-qualifier-list before '-' token

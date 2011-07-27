@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'GFX_Edit_View' target in the 'GFX_Edit_View' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

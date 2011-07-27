@@ -1,0 +1,15 @@
+/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSToolbarButton.m: In function '-[SSToolbarButton initWithFrame:]':
+/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSToolbarButton.m:15: warning: conflicting types for '-(void)initWithFrame:(NSRect)frameRect'
+/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSView.h:150: warning: previous declaration of '-(id)initWithFrame:(NSRect)frameRect'
+/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSToolbarButton.m: In function '-[SSToolbarButton myAddTrackingArea]':
+/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSToolbarButton.m:22: warning: 'SSToolbarButton' may not respond to '-myRemoveTrackingArea'
+/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSToolbarButton.m:22: warning: (Messages without a matching method signature
+/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSToolbarButton.m:22: warning: will be assumed to return 'id' and accept
+/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSToolbarButton.m:22: warning: '...' as arguments.)
+/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSToolbarButton.m:28: error: 'myTrackingArea' undeclared (first use in this function)
+/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSToolbarButton.m:28: error: (Each undeclared identifier is reported only once
+/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSToolbarButton.m:28: error: for each function it appears in.)
+/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSToolbarButton.m: In function '-[SSToolbarButton setIsSelected:]':
+/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSToolbarButton.m:39: error: 'isIt' undeclared (first use in this function)
+/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSToolbarButton.m: In function '-[SSToolbarButton myRemoveTrackingArea]':
+/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSToolbarButton.m:57: error: 'myTrackingArea' undeclared (first use in this function)

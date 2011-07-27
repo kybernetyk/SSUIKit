@@ -1,0 +1,250 @@
+TdummesRumprobieren
+v7
+r0
+t325696993.237902
+cCheck dependencies
+cProcessInfoPlistFile /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug/dummesRumprobieren.app/Contents/Info.plist dummesRumprobieren-Info.plist
+cCopyStringsFile /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug/dummesRumprobieren.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/dummesRumprobieren_Prefix-abhuzisofciuupdzvwuactryyqur/dummesRumprobieren_Prefix.pch.gch dummesRumprobieren_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/Objects-normal/x86_64/main.o /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/Objects-normal/x86_64/dummesRumprobierenAppDelegate.o /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/dummesRumprobierenAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/Objects-normal/x86_64/soundfile.o /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/soundfile.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/Objects-normal/x86_64/controller.o /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/controller.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004DA70C7000000000000000EE
+t1302793328
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/English.lproj/InfoPlist.strings
+c000000004DB984B2000000000000002D
+t1304003762
+s45
+
+N/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/English.lproj/MainMenu.xib
+c000000004DB98653000000000002DD98
+t1304004179
+s187800
+
+N/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug/dummesRumprobieren.app
+t2
+s0
+
+N/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug/dummesRumprobieren.app/Contents/Info.plist
+t1304004180
+s1317
+
+N/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug/dummesRumprobieren.app/Contents/MacOS/dummesRumprobieren
+t2
+s0
+
+N/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug/dummesRumprobieren.app/Contents/PkgInfo
+t1304004180
+s8
+
+N/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug/dummesRumprobieren.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1304004181
+s92
+
+N/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug/dummesRumprobieren.app/Contents/Resources/English.lproj/MainMenu.nib
+t1304004182
+s35583
+
+N/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/Objects-normal/x86_64/controller.o
+t2
+s0
+
+N/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/Objects-normal/x86_64/dummesRumprobieren.LinkFileList
+c000000004DB98654000000000000028C
+t1304004180
+s652
+
+N/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/Objects-normal/x86_64/dummesRumprobierenAppDelegate.o
+t1304004192
+s21432
+
+N/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/Objects-normal/x86_64/main.o
+t1304004192
+s5048
+
+N/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/Objects-normal/x86_64/soundfile.o
+t1304004193
+s6652
+
+N/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/controller.h
+c000000004DB98647000000000000010D
+t1304004167
+s269
+i<Cocoa/Cocoa.h>
+i"soundfile.h"
+
+N/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/controller.m
+c000000004DB9862D000000000000013F
+t1304004141
+s319
+i"controller.h"
+
+N/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/dummesRumprobierenAppDelegate.h
+c000000004DB984B30000000000000157
+t1304003763
+s343
+i<Cocoa/Cocoa.h>
+
+N/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/dummesRumprobierenAppDelegate.m
+c000000004DB984B30000000000000197
+t1304003763
+s407
+i"dummesRumprobierenAppDelegate.h"
+
+N/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/dummesRumprobieren_Prefix.pch
+c000000004DB984B300000000000000A7
+t1304003763
+s167
+i<Cocoa/Cocoa.h>
+
+N/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/main.m
+c000000004DB984B30000000000000103
+t1304003763
+s259
+i<Cocoa/Cocoa.h>
+
+N/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/soundfile.h
+c000000004DB9857000000000000000E3
+t1304003952
+s227
+i<Cocoa/Cocoa.h>
+
+N/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/soundfile.m
+c000000004DB9859300000000000000E4
+t1304003987
+s228
+i"soundfile.h"
+
+N/var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/dummesRumprobieren_Prefix-abhuzisofciuupdzvwuactryyqur/dummesRumprobieren_Prefix.pch.gch
+t1304004191
+s54306576
+
+NdummesRumprobieren-Info.plist
+c000000004DB984B300000000000003EA
+t1304003763
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies325696979#325696980#0(0"0(0#1#0"8617348000#0"0#
+
+CCompileC build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/Objects-normal/x86_64/controller.o /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/controller.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325696992.813314
+e325696993.143408
+r0
+xCompileC
+xbuild/dummesRumprobieren.build/Debug/dummesRumprobieren.build/Objects-normal/x86_64/controller.o
+x/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/controller.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/controller.m: In function '-[controller awakeFromNib]':
+o/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/controller.m:16: warning: unused variable 'sound'
+o/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/controller.m: In function '-[controller button:]':
+o/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/controller.m:21: error: 'sound' undeclared (first use in this function)
+o/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/controller.m:21: error: (Each undeclared identifier is reported only once
+o/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/controller.m:21: error: for each function it appears in.)
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0
+lSLF07#2@83"Compile /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/controller.m325696992#325696993#0(819"/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/controller.m: In function '-[controller awakeFromNib]':/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/controller.m:16: warning: unused variable 'sound'/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/controller.m: In function '-[controller button:]':/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/controller.m:21: error: 'sound' undeclared (first use in this function)/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/controller.m:21: error: (Each undeclared identifier is reported only once/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/controller.m:21: error: for each function it appears in.){standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_02(22@23"Unused variable 'sound'325696992#119#113#0(6@75"/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/controller.m325696941#16#0#16#0#19"unused variable '*'0(4@47"'sound' undeclared (first use in this function)325696992#346#135#0(6@75"/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/controller.m325696941#21#0#21#0#43"'*' undeclared (first use in this function)0(0#0#75"/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/controller.m8615950464#1946"    cd /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/dummesRumprobieren-generated-files.hmap -I/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/dummesRumprobieren-own-target-headers.hmap -I/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/dummesRumprobieren-all-target-headers.hmap -iquote /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/dummesRumprobieren-project-headers.hmap -F/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug -I/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug/include -I/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/DerivedSources/x86_64 -I/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/DerivedSources -include /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/dummesRumprobieren_Prefix-abhuzisofciuupdzvwuactryyqur/dummesRumprobieren_Prefix.pch -c /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/controller.m -o /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/Objects-normal/x86_64/controller.o1#
+
+CCompileC build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/Objects-normal/x86_64/dummesRumprobierenAppDelegate.o /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/dummesRumprobierenAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325696992.024082
+e325696992.755312
+r1
+xCompileC
+xbuild/dummesRumprobieren.build/Debug/dummesRumprobieren.build/Objects-normal/x86_64/dummesRumprobierenAppDelegate.o
+x/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/dummesRumprobierenAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/dummesRumprobierenAppDelegate.m325696992#325696992#0(0"0(0#0#94"/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/dummesRumprobierenAppDelegate.m8612725792#1984"    cd /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/dummesRumprobieren-generated-files.hmap -I/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/dummesRumprobieren-own-target-headers.hmap -I/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/dummesRumprobieren-all-target-headers.hmap -iquote /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/dummesRumprobieren-project-headers.hmap -F/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug -I/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug/include -I/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/DerivedSources/x86_64 -I/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/DerivedSources -include /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/dummesRumprobieren_Prefix-abhuzisofciuupdzvwuactryyqur/dummesRumprobieren_Prefix.pch -c /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/dummesRumprobierenAppDelegate.m -o /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/Objects-normal/x86_64/dummesRumprobierenAppDelegate.o0#
+
+CCompileC build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/Objects-normal/x86_64/main.o /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325696992.012640
+e325696992.813179
+r1
+xCompileC
+xbuild/dummesRumprobieren.build/Debug/dummesRumprobieren.build/Objects-normal/x86_64/main.o
+x/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/main.m325696992#325696992#0(0"0(0#0#69"/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/main.m8616452384#1934"    cd /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/dummesRumprobieren-generated-files.hmap -I/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/dummesRumprobieren-own-target-headers.hmap -I/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/dummesRumprobieren-all-target-headers.hmap -iquote /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/dummesRumprobieren-project-headers.hmap -F/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug -I/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug/include -I/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/DerivedSources/x86_64 -I/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/DerivedSources -include /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/dummesRumprobieren_Prefix-abhuzisofciuupdzvwuactryyqur/dummesRumprobieren_Prefix.pch -c /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/main.m -o /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/Objects-normal/x86_64/soundfile.o /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/soundfile.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325696992.755573
+e325696993.237771
+r1
+xCompileC
+xbuild/dummesRumprobieren.build/Debug/dummesRumprobieren.build/Objects-normal/x86_64/soundfile.o
+x/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/soundfile.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/soundfile.m325696992#325696993#0(0"0(0#0#74"/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/soundfile.m8618216064#1944"    cd /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/dummesRumprobieren-generated-files.hmap -I/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/dummesRumprobieren-own-target-headers.hmap -I/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/dummesRumprobieren-all-target-headers.hmap -iquote /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/dummesRumprobieren-project-headers.hmap -F/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug -I/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug/include -I/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/DerivedSources/x86_64 -I/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/DerivedSources -include /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/dummesRumprobieren_Prefix-abhuzisofciuupdzvwuactryyqur/dummesRumprobieren_Prefix.pch -c /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/soundfile.m -o /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/Objects-normal/x86_64/soundfile.o0#
+
+CCompileXIB /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/English.lproj/MainMenu.xib
+s325696980.345724
+e325696982.384842
+r1
+xCompileXIB
+x/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib325696980#325696982#0(0"0(0#0#89"/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/English.lproj/MainMenu.xib8604207072#447"    cd /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug/dummesRumprobieren.app/Contents/Resources/English.lproj/MainMenu.nib /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug/dummesRumprobieren.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s325696980.249220
+e325696981.524544
+r1
+xCopyStringsFile
+x/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug/dummesRumprobieren.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings325696980#325696981#0(0"0(0#0#94"/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/English.lproj/InfoPlist.strings8604422784#424"    cd /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug/dummesRumprobieren.app/Contents/Resources/English.lproj0#
+
+CLd /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug/dummesRumprobieren.app/Contents/MacOS/dummesRumprobieren normal x86_64
+r0
+
+CProcessInfoPlistFile /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug/dummesRumprobieren.app/Contents/Info.plist dummesRumprobieren-Info.plist
+s325696980.240367
+e325696980.249005
+r1
+xProcessInfoPlistFile
+x/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug/dummesRumprobieren.app/Contents/Info.plist
+xdummesRumprobieren-Info.plist
+lSLF07#2@37"Process dummesRumprobieren-Info.plist325696980#325696980#0(0"0(0#0#92"/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/dummesRumprobieren-Info.plist8605789312#415"    cd /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren    builtin-infoPlistUtility dummesRumprobieren-Info.plist -genpkginfo /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug/dummesRumprobieren.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug/dummesRumprobieren.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/dummesRumprobieren_Prefix-abhuzisofciuupdzvwuactryyqur/dummesRumprobieren_Prefix.pch.gch dummesRumprobieren_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325696982.385224
+e325696992.012345
+r1
+xProcessPCH
+x/var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/dummesRumprobieren_Prefix-abhuzisofciuupdzvwuactryyqur/dummesRumprobieren_Prefix.pch.gch
+xdummesRumprobieren_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Precompile dummesRumprobieren_Prefix.pch325696982#325696992#0(0"0(0#0#92"/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/dummesRumprobieren_Prefix.pch8620783072#1805"    cd /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/dummesRumprobieren-generated-files.hmap -I/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/dummesRumprobieren-own-target-headers.hmap -I/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/dummesRumprobieren-all-target-headers.hmap -iquote /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/dummesRumprobieren-project-headers.hmap -F/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug -I/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug/include -I/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/DerivedSources/x86_64 -I/Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/dummesRumprobieren.build/Debug/dummesRumprobieren.build/DerivedSources -c /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/dummesRumprobieren_Prefix.pch -o /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/dummesRumprobieren_Prefix-abhuzisofciuupdzvwuactryyqur/dummesRumprobieren_Prefix.pch.gch0#
+
+CTouch /Users/Simoon/Documents/XCode/GFX_Edit_View/dummesRumprobieren/build/Debug/dummesRumprobieren.app
+r0
+

@@ -1,0 +1,1203 @@
+TGFX_Edit_View
+v7
+r0
+t325196679.931503
+cCheck dependencies
+cProcessInfoPlistFile /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Info.plist GFX_Edit_View-Info.plist
+cCopyStringsFile /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/English.lproj/MainMenu.xib
+cCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/Back.png Back.png
+cCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/Forward.png Forward.png
+cCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/Play.png Play.png
+cCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/Repeat.png Repeat.png
+cCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/Stop.png Stop.png
+cProcessPCH /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GFX_Edit_View_Prefix-blcpolcghnyrjafegulkyppflwpk/GFX_Edit_View_Prefix.pch.gch GFX_Edit_View_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/main.o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/GFX_Edit_ViewAppDelegate.o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/GFX_Edit_ViewAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSImageEdit.o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/Controller.o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSBox.o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSBox.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSHelpStuff.o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSHelpStuff.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSView.o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSButtonCell.o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSButtonCell.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSStatusBar.o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSStatusBar.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSLoupe.o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSLoupe.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004DA70C7000000000000000EE
+t1302793328
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Quartz.framework/Headers/Quartz.h
+c000000004CC4396E0000000000000124
+t1287928174
+s292
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Quartz.framework/Quartz
+c000000004D5A279100000000000036E0
+t1297754001
+s14048
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC4130B00000000000000BF
+t1287918347
+s191
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004D5A279100000000000A3C74
+t1297754001
+s670836
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/Controller.h
+c000000004DADB3E00000000000000152
+t1303229408
+s338
+i<Cocoa/Cocoa.h>
+i"SSImageEdit.h"
+
+N/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/Controller.m
+c000000004DADCABE0000000000000333
+t1303235262
+s819
+i"Controller.h"
+
+N/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/English.lproj/InfoPlist.strings
+c000000004DAD9736000000000000002D
+t1303222070
+s45
+
+N/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/English.lproj/MainMenu.xib
+c000000004DADBF28000000000002E692
+t1303232296
+s190098
+
+N/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/GFX_Edit_ViewAppDelegate.h
+c000000004DAD97360000000000000148
+t1303222070
+s328
+i<Cocoa/Cocoa.h>
+
+N/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/GFX_Edit_ViewAppDelegate.m
+c000000004DAD97360000000000000183
+t1303222070
+s387
+i"GFX_Edit_ViewAppDelegate.h"
+
+N/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/GFX_Edit_View_Prefix.pch
+c000000004DAD9736000000000000009D
+t1303222070
+s157
+i<Cocoa/Cocoa.h>
+
+N/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/SSImageEdit.h
+c000000004DADBF1F0000000000000146
+t1303232287
+s326
+i<Cocoa/Cocoa.h>
+
+N/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/SSImageEdit.m
+c000000004DADCB6C0000000000000A32
+t1303235436
+s2610
+i"SSImageEdit.h"
+
+N/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app
+t1303235437
+s102
+
+N/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Info.plist
+t1303224216
+s1302
+
+N/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/MacOS/GFX_Edit_View
+t1303235437
+s17912
+
+N/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/PkgInfo
+t1303224216
+s8
+
+N/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1303224217
+s92
+
+N/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/English.lproj/MainMenu.nib
+t1303232300
+s35927
+
+N/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/Controller.o
+t1303235263
+s16756
+
+N/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/GFX_Edit_View.LinkFileList
+c000000004DADA2E00000000000000249
+t1303225056
+s585
+
+N/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/GFX_Edit_ViewAppDelegate.o
+t1303224223
+s21296
+
+N/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSImageEdit.o
+t1303235437
+s21400
+
+N/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/main.o
+t1303224223
+s5032
+
+N/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/main.m
+c000000004DAD973600000000000000FE
+t1303222070
+s254
+i<Cocoa/Cocoa.h>
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Back.png
+c000000004DAC09AC0000000000000B3D
+t1303120300
+s2877
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.h
+c000000004DB1E3F300000000000002C9
+t1303503859
+s713
+i<Cocoa/Cocoa.h>
+i"SSImageEdit.h"
+i"SSView.h"
+i"SSButtonCell.h"
+i"SSBox.h"
+i"SSStatusBar.h"
+i"SSLoupe.h"
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m
+c000000004DB1E3C100000000000004F9
+t1303503809
+s1273
+i"Controller.h"
+i"SSImageEdit.h"
+i"SSView.h"
+i"SSButtonCell.h"
+i"SSBox.h"
+i"SSStatusBar.h"
+i"SSLoupe.h"
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/English.lproj/InfoPlist.strings
+c000000004DAD9736000000000000002D
+t1303222070
+s45
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/English.lproj/MainMenu.xib
+c000000004DB1D1FD000000000003E66E
+t1303499261
+s255598
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Forward.png
+c000000004DAC09BB0000000000000B40
+t1303120315
+s2880
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/GFX_Edit_ViewAppDelegate.h
+c000000004DB08684000000000000014A
+t1303414404
+s330
+i<Cocoa/Cocoa.h>
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/GFX_Edit_ViewAppDelegate.m
+c000000004DAD97360000000000000183
+t1303222070
+s387
+i"GFX_Edit_ViewAppDelegate.h"
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/GFX_Edit_View_Prefix.pch
+c000000004DAD9736000000000000009D
+t1303222070
+s157
+i<Cocoa/Cocoa.h>
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Play.png
+c000000004DAC091F0000000000000B46
+t1303120159
+s2886
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Repeat.png
+c000000004DAC09510000000000000BAA
+t1303120209
+s2986
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSBox.h
+c000000004DB0D24800000000000000D9
+t1303433800
+s217
+i<Cocoa/Cocoa.h>
+i"SSConfig.h"
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSBox.m
+c000000004DB0D2420000000000000CF0
+t1303433794
+s3312
+i"SSBox.h"
+i"SSConfig.h"
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSButton.h
+c000000004DB0946500000000000000E6
+t1303417957
+s230
+i<Cocoa/Cocoa.h>
+i"SSConfig.h"
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSButton.m
+c000000004DB094A000000000000004EC
+t1303418016
+s1260
+i"SSButton.h"
+i"SSConfig.h"
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSButtonCell.h
+c000000004DB1AAA400000000000000EB
+t1303489188
+s235
+i<Cocoa/Cocoa.h>
+i"SSConfig.h"
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSButtonCell.m
+c000000004DB1AAA40000000000001EB0
+t1303489188
+s7856
+i"SSButtonCell.h"
+i"SSConfig.h"
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSColors.h
+c000000004DB0541C00000000000002E0
+t1303401500
+s736
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSConfig.h
+c000000004DB1CEB400000000000000B9
+t1303498420
+s185
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSHelpStuff.h
+c000000004DB0908A0000000000000115
+t1303416970
+s277
+i<Cocoa/Cocoa.h>
+i"SSConfig.h"
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSHelpStuff.m
+c000000004DB090FD00000000000000DA
+t1303417085
+s218
+i"SSHelpStuff.h"
+i"SSConfig.h"
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.h
+c000000004DB1DAF900000000000001E2
+t1303501561
+s482
+i<Cocoa/Cocoa.h>
+i"SSConfig.h"
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.m
+c000000004DB1E24000000000000006A6
+t1303503424
+s1702
+i"SSImageEdit.h"
+i"SSConfig.h"
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSLoupe.h
+c000000004DB1E30B00000000000001B5
+t1303503627
+s437
+i<Cocoa/Cocoa.h>
+i<Quartz/Quartz.h>
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSLoupe.m
+c000000004DB1E3A80000000000000DDB
+t1303503784
+s3547
+i"SSLoupe.h"
+i<Quartz/Quartz.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSStandart.h
+c000000004DB08CEC00000000000000D1
+t1303416044
+s209
+i<Cocoa/Cocoa.h>
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSStandart.m
+c000000004DB08CEC00000000000000C5
+t1303416044
+s197
+i"SSStandart.h"
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSStatusBar.h
+c000000004DB0E1A400000000000000D3
+t1303437732
+s211
+i<Cocoa/Cocoa.h>
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSStatusBar.m
+c000000004DB1898D000000000000050F
+t1303480717
+s1295
+i"SSStatusBar.h"
+i"SSConfig.h"
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSView.h
+c000000004DB08E2A00000000000000DC
+t1303416362
+s220
+i<Cocoa/Cocoa.h>
+i"SSConfig.h"
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSView.m
+c000000004DB0912800000000000001DD
+t1303417128
+s477
+i"SSView.h"
+i"SSConfig.h"
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Stop.png
+c000000004DAC097C0000000000000B1E
+t1303120252
+s2846
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_gloss_part1.png
+c000000004DB072A40000000000000B05
+t1303409316
+s2821
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_gloss_part2.png
+c000000004DB081E80000000000000B06
+t1303413224
+s2822
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_gloss_part3.png
+c000000004DB072B40000000000000B08
+t1303409332
+s2824
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part1.png
+c000000004DB071380000000000000AFB
+t1303408952
+s2811
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part2.png
+c000000004DB0715E0000000000000AED
+t1303408990
+s2797
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part3.png
+c000000004DB0717A0000000000000AFD
+t1303409018
+s2813
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part4.png
+c000000004DB071A10000000000000AF1
+t1303409057
+s2801
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part5.png
+c000000004DB071B50000000000000AE8
+t1303409077
+s2792
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part6.png
+c000000004DB071D00000000000000AF1
+t1303409104
+s2801
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part7.png
+c000000004DB071F50000000000000B4C
+t1303409141
+s2892
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part8.png
+c000000004DB072110000000000000B07
+t1303409169
+s2823
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part9.png
+c000000004DB072250000000000000B51
+t1303409189
+s2897
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app
+t2
+s0
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Info.plist
+t1303503869
+s1302
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/MacOS/GFX_Edit_View
+t2
+s0
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/PkgInfo
+t1303503869
+s8
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/Back.png
+t1303503869
+s2877
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1303503869
+s92
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/English.lproj/MainMenu.nib
+t1303503870
+s47372
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/Forward.png
+t1303503869
+s2880
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/Play.png
+t1303503869
+s2886
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/Repeat.png
+t1303503869
+s2986
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/Stop.png
+t1303503869
+s2846
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/box_gloss_part1.png
+t1303410310
+s2821
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/box_gloss_part2.png
+t1303413267
+s2822
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/box_gloss_part3.png
+t1303410310
+s2824
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/box_part1.png
+t1303410310
+s2811
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/box_part2.png
+t1303410310
+s2797
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/box_part3.png
+t1303410310
+s2813
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/box_part4.png
+t1303410310
+s2801
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/box_part5.png
+t1303410310
+s2792
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/box_part6.png
+t1303410310
+s2801
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/box_part7.png
+t1303410310
+s2892
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/box_part8.png
+t1303410310
+s2823
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/box_part9.png
+t1303410310
+s2897
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/button_gloss_normal_part1.png
+t1303418756
+s2844
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/button_gloss_normal_part2.png
+t1303418756
+s2811
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/button_gloss_normal_part3.png
+t1303418756
+s2840
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/button_normal_part1.png
+t1303418756
+s2853
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/button_normal_part2.png
+t1303418756
+s2842
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/button_normal_part3.png
+t1303418756
+s2849
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/Controller.o
+t2
+s0
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/GFX_Edit_View.LinkFileList
+c000000004DB1E3FD0000000000000619
+t1303503869
+s1561
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/GFX_Edit_ViewAppDelegate.o
+t1303503878
+s21320
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSBox.o
+t1303503879
+s22844
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSButton.o
+t1303418147
+s17512
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSButtonCell.o
+t1303503879
+s31252
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSHelpStuff.o
+t1303503879
+s5496
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSImageEdit.o
+t1303503878
+s22704
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSLoupe.o
+t2
+s0
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSStandart.o
+t2
+s0
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSStatusBar.o
+t1303503879
+s17576
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSView.o
+t1303503879
+s13756
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/main.o
+t1303503878
+s5056
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/button_gloss_normal_part1.png
+c000000004DB065CB0000000000000B1C
+t1303406027
+s2844
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/button_gloss_normal_part2.png
+c000000004DB065F70000000000000AFB
+t1303406071
+s2811
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/button_gloss_normal_part3.png
+c000000004DB065C00000000000000B18
+t1303406016
+s2840
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/button_normal_part1.png
+c000000004DB064A50000000000000B25
+t1303405733
+s2853
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/button_normal_part2.png
+c000000004DB064C10000000000000B1A
+t1303405761
+s2842
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/button_normal_part3.png
+c000000004DB064ED0000000000000B21
+t1303405805
+s2849
+
+N/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/main.m
+c000000004DAD973600000000000000FE
+t1303222070
+s254
+i<Cocoa/Cocoa.h>
+
+N/var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GFX_Edit_View_Prefix-blcpolcghnyrjafegulkyppflwpk/GFX_Edit_View_Prefix.pch.gch
+t1303503878
+s54306576
+
+N/var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GFX_Edit_View_Prefix-cgqwtzxvwrxnrpesrhwcvotxnscs/GFX_Edit_View_Prefix.pch.gch
+t1303224223
+s54306576
+
+NGFX_Edit_View-Info.plist
+c000000004DAD973600000000000003EA
+t1303222070
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies325196669#325196669#0(0"0(0#1#0"8604337472#0"0#
+
+CCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/Controller.o /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/Controller.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s324928062.835165
+e324928063.422905
+r1
+xCompileC
+xbuild/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/Controller.o
+x/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/Controller.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/Controller.m:9:
+o/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/Controller.h:15: warning: declaration does not declare anything
+lSLF07#2@77"Compile /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/Controller.m324928062#324928063#0(216"In file included from /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/Controller.m:9:/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/Controller.h:15: warning: declaration does not declare anything1(22@37"Declaration does not declare anything324928063#95#121#2(7@91"In file included from /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/Controller.m324928063#18446744073709551615#0#0(6@69"/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/Controller.m324928062#9#0#9#0#0"0(13@110"Declaration does not declare anything in /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/Controller.h324928063#18446744073709551615#0#0(6@69"/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/Controller.h324922208#15#0#15#0#0"0(6@69"/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/Controller.h324922208#15#0#15#0#0"0(0#0#69"/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/Controller.m8629510336#1780"    cd /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-generated-files.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-own-target-headers.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-all-target-headers.hmap -iquote /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-project-headers.hmap -F/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug -I/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/include -I/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources/x86_64 -I/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources -include /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GFX_Edit_View_Prefix-cgqwtzxvwrxnrpesrhwcvotxnscs/GFX_Edit_View_Prefix.pch -c /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/Controller.m -o /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/Controller.o0#
+
+CCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/Controller.o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325196678.753212
+e325196679.079391
+r0
+xCompileC
+xbuild/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/Controller.o
+x/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.h:15,
+o                 from /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m:9:
+o/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSLoupe.h:24: error: expected ';' before 'end'
+o/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m:19: warning: cannot find interface declaration for 'Controller'
+o/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m: In function '-[Controller awakeFromNib]':
+o/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m:23: error: '_imageEdit' undeclared (first use in this function)
+o/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m:23: error: (Each undeclared identifier is reported only once
+o/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m:23: error: for each function it appears in.)
+o/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m: In function '-[Controller fillProtoSelection:]':
+o/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m:37: error: '_imageEdit' undeclared (first use in this function)
+o/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m: In function '-[Controller setAnotherMousePosition:]':
+o/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m:47: error: '_loupeView' undeclared (first use in this function)
+o/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m:48: error: '_zoomText' undeclared (first use in this function)
+lSLF07#2@89"Compile /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m325196678#325196679#0(1724"In file included from /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.h:15,                 from /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m:9:/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSLoupe.h:24: error: expected ';' before 'end'/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m:19: warning: cannot find interface declaration for 'Controller'/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m: In function '-[Controller awakeFromNib]':/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m:23: error: '_imageEdit' undeclared (first use in this function)/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m:23: error: (Each undeclared identifier is reported only once/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m:23: error: for each function it appears in.)/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m: In function '-[Controller fillProtoSelection:]':/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m:37: error: '_imageEdit' undeclared (first use in this function)/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m: In function '-[Controller setAnotherMousePosition:]':/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m:47: error: '_loupeView' undeclared (first use in this function)/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m:48: error: '_zoomText' undeclared (first use in this function)6(4@25"Expected ';' before 'end'325196678#215#116#3(7@103"In file included from /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m325196678#18446744073709551615#0#0(6@81"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m325196609#9#0#9#0#0"0(7@103"In file included from /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.h325196678#18446744073709551615#0#0(6@81"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.h325196659#15#0#15#0#0"0(13@107"Expected ';' before 'end' in /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSLoupe.h325196678#18446744073709551615#0#0(6@78"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSLoupe.h325196427#24#0#24#0#0"0(6@78"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSLoupe.h325196427#24#0#24#0#19"expected * before *0(22@50"Cannot find interface declaration for 'Controller'325196678#331#146#0(6@81"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m325196609#19#0#19#0#0"0(4@52"'_imageEdit' undeclared (first use in this function)325196678#602#146#0(6@81"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m325196609#23#0#23#0#43"'*' undeclared (first use in this function)0(4@52"'_imageEdit' undeclared (first use in this function)325196678#1150#146#0(6@81"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m325196609#37#0#37#0#43"'*' undeclared (first use in this function)0(4@52"'_loupeView' undeclared (first use in this function)325196678#1433#146#0(6@81"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m325196609#47#0#47#0#43"'*' undeclared (first use in this function)0(4@51"'_zoomText' undeclared (first use in this function)325196678#1579#145#0(6@81"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m325196609#48#0#48#0#43"'*' undeclared (first use in this function)0(0#0#81"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m8604561568#1912"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-generated-files.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-own-target-headers.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-all-target-headers.hmap -iquote /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-project-headers.hmap -F/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/include -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources/x86_64 -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources -include /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GFX_Edit_View_Prefix-blcpolcghnyrjafegulkyppflwpk/GFX_Edit_View_Prefix.pch -c /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Controller.m -o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/Controller.o1#
+
+CCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/GFX_Edit_ViewAppDelegate.o /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/GFX_Edit_ViewAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s324917023.298069
+e324917023.538718
+r1
+xCompileC
+xbuild/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/GFX_Edit_ViewAppDelegate.o
+x/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/GFX_Edit_ViewAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/GFX_Edit_ViewAppDelegate.m324917023#324917023#0(0"0(0#0#83"/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/GFX_Edit_ViewAppDelegate.m8603786752#1808"    cd /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-generated-files.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-own-target-headers.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-all-target-headers.hmap -iquote /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-project-headers.hmap -F/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug -I/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/include -I/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources/x86_64 -I/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources -include /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GFX_Edit_View_Prefix-cgqwtzxvwrxnrpesrhwcvotxnscs/GFX_Edit_View_Prefix.pch -c /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/GFX_Edit_ViewAppDelegate.m -o /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/GFX_Edit_ViewAppDelegate.o0#
+
+CCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/GFX_Edit_ViewAppDelegate.o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/GFX_Edit_ViewAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325196678.466566
+e325196678.710471
+r1
+xCompileC
+xbuild/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/GFX_Edit_ViewAppDelegate.o
+x/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/GFX_Edit_ViewAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/GFX_Edit_ViewAppDelegate.m325196678#325196678#0(0"0(0#0#95"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/GFX_Edit_ViewAppDelegate.m8603482272#1940"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-generated-files.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-own-target-headers.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-all-target-headers.hmap -iquote /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-project-headers.hmap -F/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/include -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources/x86_64 -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources -include /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GFX_Edit_View_Prefix-blcpolcghnyrjafegulkyppflwpk/GFX_Edit_View_Prefix.pch -c /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/GFX_Edit_ViewAppDelegate.m -o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/GFX_Edit_ViewAppDelegate.o0#
+
+CCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSBox.o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSBox.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325196679.014570
+e325196679.316162
+r1
+xCompileC
+xbuild/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSBox.o
+x/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSBox.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSBox.m325196679#325196679#0(0"0(0#0#76"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSBox.m8603700576#1902"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-generated-files.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-own-target-headers.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-all-target-headers.hmap -iquote /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-project-headers.hmap -F/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/include -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources/x86_64 -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources -include /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GFX_Edit_View_Prefix-blcpolcghnyrjafegulkyppflwpk/GFX_Edit_View_Prefix.pch -c /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSBox.m -o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSBox.o0#
+
+CCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSButton.o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSButton.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325110947.445640
+e325110947.981020
+r1
+xCompileC
+xbuild/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSButton.o
+x/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSButton.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSButton.m: In function '-[SSButton drawTitle:withFrame:inView:]':
+o/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSButton.m:22: warning: control reaches end of non-void function
+lSLF07#2@87"Compile /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSButton.m325110947#325110947#0(270"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSButton.m: In function '-[SSButton drawTitle:withFrame:inView:]':/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSButton.m:22: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function325110947#136#134#0(6@79"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSButton.m325110816#22#0#22#0#40"control reaches end of non-void function0(0#0#79"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSButton.m8616996064#1908"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-generated-files.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-own-target-headers.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-all-target-headers.hmap -iquote /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-project-headers.hmap -F/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/include -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources/x86_64 -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources -include /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GFX_Edit_View_Prefix-blcpolcghnyrjafegulkyppflwpk/GFX_Edit_View_Prefix.pch -c /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSButton.m -o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSButton.o0#
+
+CCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSButtonCell.o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSButtonCell.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325196679.316293
+e325196679.640870
+r1
+xCompileC
+xbuild/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSButtonCell.o
+x/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSButtonCell.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSButtonCell.m325196679#325196679#0(0"0(0#0#83"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSButtonCell.m8601403872#1916"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-generated-files.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-own-target-headers.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-all-target-headers.hmap -iquote /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-project-headers.hmap -F/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/include -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources/x86_64 -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources -include /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GFX_Edit_View_Prefix-blcpolcghnyrjafegulkyppflwpk/GFX_Edit_View_Prefix.pch -c /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSButtonCell.m -o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSButtonCell.o0#
+
+CCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSHelpStuff.o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSHelpStuff.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325196679.079514
+e325196679.306597
+r1
+xCompileC
+xbuild/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSHelpStuff.o
+x/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSHelpStuff.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSHelpStuff.m:16: warning: incomplete implementation of class 'SSColor'
+o/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSHelpStuff.m:16: warning: method definition for '-gimmeMeColor:' not found
+lSLF07#2@90"Compile /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSHelpStuff.m325196679#325196679#0(286"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSHelpStuff.m:16: warning: incomplete implementation of class 'SSColor'/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSHelpStuff.m:16: warning: method definition for '-gimmeMeColor:' not found2(22@44"Incomplete implementation of class 'SSColor'325196679#0#141#0(6@82"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSHelpStuff.m325109885#16#0#16#0#38"incomplete implementation of class '*'0(22@48"Method definition for '-gimmeMeColor:' not found325196679#141#145#0(6@82"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSHelpStuff.m325109885#16#0#16#0#35"method definition for '*' not found0(0#0#82"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSHelpStuff.m8602698432#1914"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-generated-files.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-own-target-headers.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-all-target-headers.hmap -iquote /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-project-headers.hmap -F/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/include -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources/x86_64 -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources -include /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GFX_Edit_View_Prefix-blcpolcghnyrjafegulkyppflwpk/GFX_Edit_View_Prefix.pch -c /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSHelpStuff.m -o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSHelpStuff.o0#
+
+CCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSImageEdit.o /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/SSImageEdit.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s324928237.196596
+e324928237.721666
+r1
+xCompileC
+xbuild/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSImageEdit.o
+x/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/SSImageEdit.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/SSImageEdit.m324928237#324928237#0(0"0(0#0#70"/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/SSImageEdit.m8631462240#1782"    cd /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-generated-files.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-own-target-headers.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-all-target-headers.hmap -iquote /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-project-headers.hmap -F/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug -I/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/include -I/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources/x86_64 -I/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources -include /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GFX_Edit_View_Prefix-cgqwtzxvwrxnrpesrhwcvotxnscs/GFX_Edit_View_Prefix.pch -c /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/SSImageEdit.m -o /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSImageEdit.o0#
+
+CCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSImageEdit.o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325196678.710691
+e325196679.014414
+r1
+xCompileC
+xbuild/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSImageEdit.o
+x/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.m:78: warning: property 'filter' requires method '-filter' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.m:78: warning: property 'filter' requires the method 'setFilter:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.m:78: warning: property '_orgImage' requires method '-_orgImage' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.m:78: warning: incomplete implementation of class 'SSImageEdit'
+o/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.m:78: warning: method definition for '-fillSelectionWithColor:Color:' not found
+o/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.m:78: warning: method definition for '-setImage' not found
+lSLF07#2@90"Compile /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.m325196678#325196679#0(1110"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.m:78: warning: property 'filter' requires method '-filter' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.m:78: warning: property 'filter' requires the method 'setFilter:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.m:78: warning: property '_orgImage' requires method '-_orgImage' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.m:78: warning: incomplete implementation of class 'SSImageEdit'/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.m:78: warning: method definition for '-fillSelectionWithColor:Color:' not found/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.m:78: warning: method definition for '-setImage' not found6(22@120"Property 'filter' requires method '-filter' to be defined - use @synthesize, @dynamic or provide a method implementation325196678#0#217#0(6@82"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.m325196224#78#0#78#0#0"0(22@127"Property 'filter' requires the method 'setFilter:' to be defined - use @synthesize, @dynamic or provide a method implementation325196678#217#224#0(6@82"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.m325196224#78#0#78#0#0"0(22@126"Property '_orgImage' requires method '-_orgImage' to be defined - use @synthesize, @dynamic or provide a method implementation325196678#441#223#0(6@82"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.m325196224#78#0#78#0#0"0(22@48"Incomplete implementation of class 'SSImageEdit'325196678#664#145#0(6@82"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.m325196224#78#0#78#0#38"incomplete implementation of class '*'0(22@64"Method definition for '-fillSelectionWithColor:Color:' not found325196678#809#161#0(6@82"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.m325196224#78#0#78#0#35"method definition for '*' not found0(22@43"Method definition for '-setImage' not found325196678#970#140#0(6@82"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.m325196224#78#0#78#0#35"method definition for '*' not found0(0#0#82"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.m8606055680#1914"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-generated-files.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-own-target-headers.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-all-target-headers.hmap -iquote /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-project-headers.hmap -F/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/include -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources/x86_64 -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources -include /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GFX_Edit_View_Prefix-blcpolcghnyrjafegulkyppflwpk/GFX_Edit_View_Prefix.pch -c /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSImageEdit.m -o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSImageEdit.o0#
+
+CCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSLoupe.o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSLoupe.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325196679.641009
+e325196679.931405
+r0
+xCompileC
+xbuild/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSLoupe.o
+x/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSLoupe.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSLoupe.m:9:
+o/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSLoupe.h:24: error: expected ';' before 'end'
+lSLF07#2@86"Compile /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSLoupe.m325196679#325196679#0(220"In file included from /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSLoupe.m:9:/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSLoupe.h:24: error: expected ';' before 'end'1(4@25"Expected ';' before 'end'325196679#104#116#2(7@100"In file included from /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSLoupe.m325196679#18446744073709551615#0#0(6@78"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSLoupe.m325196584#9#0#9#0#0"0(13@107"Expected ';' before 'end' in /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSLoupe.h325196679#18446744073709551615#0#0(6@78"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSLoupe.h325196427#24#0#24#0#0"0(6@78"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSLoupe.h325196427#24#0#24#0#19"expected * before *0(0#0#78"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSLoupe.m8604249984#1906"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-generated-files.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-own-target-headers.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-all-target-headers.hmap -iquote /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-project-headers.hmap -F/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/include -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources/x86_64 -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources -include /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GFX_Edit_View_Prefix-blcpolcghnyrjafegulkyppflwpk/GFX_Edit_View_Prefix.pch -c /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSLoupe.m -o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSLoupe.o1#
+
+CCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSStandart.o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSStandart.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSStatusBar.o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSStatusBar.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325196679.564375
+e325196679.850062
+r1
+xCompileC
+xbuild/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSStatusBar.o
+x/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSStatusBar.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSStatusBar.m325196679#325196679#0(0"0(0#0#82"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSStatusBar.m8605927904#1914"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-generated-files.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-own-target-headers.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-all-target-headers.hmap -iquote /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-project-headers.hmap -F/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/include -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources/x86_64 -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources -include /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GFX_Edit_View_Prefix-blcpolcghnyrjafegulkyppflwpk/GFX_Edit_View_Prefix.pch -c /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSStatusBar.m -o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSStatusBar.o0#
+
+CCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSView.o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325196679.306758
+e325196679.563979
+r1
+xCompileC
+xbuild/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSView.o
+x/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSView.m325196679#325196679#0(0"0(0#0#77"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSView.m8600572416#1904"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-generated-files.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-own-target-headers.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-all-target-headers.hmap -iquote /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-project-headers.hmap -F/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/include -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources/x86_64 -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources -include /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GFX_Edit_View_Prefix-blcpolcghnyrjafegulkyppflwpk/GFX_Edit_View_Prefix.pch -c /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/SSView.m -o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/SSView.o0#
+
+CCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/main.o /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s324917023.296628
+e324917023.525575
+r1
+xCompileC
+xbuild/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/main.o
+x/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/main.m324917023#324917023#0(0"0(0#0#63"/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/main.m8619479488#1768"    cd /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-generated-files.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-own-target-headers.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-all-target-headers.hmap -iquote /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-project-headers.hmap -F/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug -I/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/include -I/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources/x86_64 -I/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources -include /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GFX_Edit_View_Prefix-cgqwtzxvwrxnrpesrhwcvotxnscs/GFX_Edit_View_Prefix.pch -c /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/main.m -o /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/main.o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325196678.464982
+e325196678.753072
+r1
+xCompileC
+xbuild/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/main.o
+x/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/main.m325196678#325196678#0(0"0(0#0#75"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/main.m8603776512#1900"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-generated-files.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-own-target-headers.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-all-target-headers.hmap -iquote /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-project-headers.hmap -F/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/include -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources/x86_64 -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources -include /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GFX_Edit_View_Prefix-blcpolcghnyrjafegulkyppflwpk/GFX_Edit_View_Prefix.pch -c /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/main.m -o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/English.lproj/MainMenu.xib
+s324925099.844102
+e324925100.379440
+r1
+xCompileXIB
+x/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib324925099#324925100#0(0"0(0#0#83"/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/English.lproj/MainMenu.xib8613793568#424"    cd /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/English.lproj/MainMenu.nib /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/English.lproj/MainMenu.xib
+s325196669.487489
+e325196670.298520
+r1
+xCompileXIB
+x/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib325196669#325196670#0(0"0(0#0#95"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/English.lproj/MainMenu.xib8602695616#460"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/English.lproj/MainMenu.nib /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s324917016.652131
+e324917017.121042
+r1
+xCopyStringsFile
+x/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings324917016#324917017#0(0"0(0#0#88"/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/English.lproj/InfoPlist.strings8619457376#407"    cd /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/English.lproj0#
+
+CCopyStringsFile /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s325196669.485163
+e325196669.850846
+r1
+xCopyStringsFile
+x/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings325196669#325196669#0(0"0(0#0#100"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/English.lproj/InfoPlist.strings8602762048#431"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/Back.png Back.png
+s325196669.850959
+e325196669.908801
+r1
+xCpResource
+xbuild/Debug/GFX_Edit_View.app/Contents/Resources/Back.png
+xBack.png
+lSLF07#2@13"Copy Back.png325196669#325196669#0(0"0(0#0#77"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Back.png8603910784#434"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Back.png /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources0#
+
+CCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/Forward.png Forward.png
+s325196669.852530
+e325196669.919098
+r1
+xCpResource
+xbuild/Debug/GFX_Edit_View.app/Contents/Resources/Forward.png
+xForward.png
+lSLF07#2@16"Copy Forward.png325196669#325196669#0(0"0(0#0#80"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Forward.png8603895936#437"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Forward.png /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources0#
+
+CCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/Play.png Play.png
+s325196669.858486
+e325196669.909001
+r1
+xCpResource
+xbuild/Debug/GFX_Edit_View.app/Contents/Resources/Play.png
+xPlay.png
+lSLF07#2@13"Copy Play.png325196669#325196669#0(0"0(0#0#77"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Play.png8603866048#434"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Play.png /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources0#
+
+CCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/Repeat.png Repeat.png
+s325196669.859944
+e325196669.909169
+r1
+xCpResource
+xbuild/Debug/GFX_Edit_View.app/Contents/Resources/Repeat.png
+xRepeat.png
+lSLF07#2@15"Copy Repeat.png325196669#325196669#0(0"0(0#0#79"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Repeat.png8603834848#436"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Repeat.png /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources0#
+
+CCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/Stop.png Stop.png
+s325196669.862052
+e325196669.909374
+r1
+xCpResource
+xbuild/Debug/GFX_Edit_View.app/Contents/Resources/Stop.png
+xStop.png
+lSLF07#2@13"Copy Stop.png325196669#325196669#0(0"0(0#0#77"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Stop.png8603816224#434"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/Stop.png /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources0#
+
+CCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/box_gloss_part1.png box_gloss_part1.png
+s325103110.615736
+e325103110.807894
+r1
+xCpResource
+xbuild/Debug/GFX_Edit_View.app/Contents/Resources/box_gloss_part1.png
+xbox_gloss_part1.png
+lSLF07#2@24"Copy box_gloss_part1.png325103110#325103110#0(0"0(0#0#88"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_gloss_part1.png8617524928#445"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_gloss_part1.png /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources0#
+
+CCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/box_gloss_part2.png box_gloss_part2.png
+s325106067.033939
+e325106067.127414
+r1
+xCpResource
+xbuild/Debug/GFX_Edit_View.app/Contents/Resources/box_gloss_part2.png
+xbox_gloss_part2.png
+lSLF07#2@24"Copy box_gloss_part2.png325106067#325106067#0(0"0(0#0#88"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_gloss_part2.png8618120160#445"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_gloss_part2.png /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources0#
+
+CCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/box_gloss_part3.png box_gloss_part3.png
+s325103110.620199
+e325103110.810972
+r1
+xCpResource
+xbuild/Debug/GFX_Edit_View.app/Contents/Resources/box_gloss_part3.png
+xbox_gloss_part3.png
+lSLF07#2@24"Copy box_gloss_part3.png325103110#325103110#0(0"0(0#0#88"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_gloss_part3.png8617109248#445"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_gloss_part3.png /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources0#
+
+CCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/box_part1.png box_part1.png
+s325103110.622645
+e325103110.811168
+r1
+xCpResource
+xbuild/Debug/GFX_Edit_View.app/Contents/Resources/box_part1.png
+xbox_part1.png
+lSLF07#2@18"Copy box_part1.png325103110#325103110#0(0"0(0#0#82"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part1.png8616642112#439"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part1.png /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources0#
+
+CCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/box_part2.png box_part2.png
+s325103110.623975
+e325103110.811354
+r1
+xCpResource
+xbuild/Debug/GFX_Edit_View.app/Contents/Resources/box_part2.png
+xbox_part2.png
+lSLF07#2@18"Copy box_part2.png325103110#325103110#0(0"0(0#0#82"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part2.png8616443680#439"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part2.png /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources0#
+
+CCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/box_part3.png box_part3.png
+s325103110.625193
+e325103110.811532
+r1
+xCpResource
+xbuild/Debug/GFX_Edit_View.app/Contents/Resources/box_part3.png
+xbox_part3.png
+lSLF07#2@18"Copy box_part3.png325103110#325103110#0(0"0(0#0#82"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part3.png8616228576#439"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part3.png /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources0#
+
+CCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/box_part4.png box_part4.png
+s325103110.626412
+e325103110.811704
+r1
+xCpResource
+xbuild/Debug/GFX_Edit_View.app/Contents/Resources/box_part4.png
+xbox_part4.png
+lSLF07#2@18"Copy box_part4.png325103110#325103110#0(0"0(0#0#82"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part4.png8615950624#439"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part4.png /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources0#
+
+CCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/box_part5.png box_part5.png
+s325103110.628008
+e325103110.811885
+r1
+xCpResource
+xbuild/Debug/GFX_Edit_View.app/Contents/Resources/box_part5.png
+xbox_part5.png
+lSLF07#2@18"Copy box_part5.png325103110#325103110#0(0"0(0#0#82"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part5.png8615515488#439"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part5.png /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources0#
+
+CCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/box_part6.png box_part6.png
+s325103110.629306
+e325103110.812056
+r1
+xCpResource
+xbuild/Debug/GFX_Edit_View.app/Contents/Resources/box_part6.png
+xbox_part6.png
+lSLF07#2@18"Copy box_part6.png325103110#325103110#0(0"0(0#0#82"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part6.png8615177504#439"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part6.png /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources0#
+
+CCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/box_part7.png box_part7.png
+s325103110.812152
+e325103110.824694
+r1
+xCpResource
+xbuild/Debug/GFX_Edit_View.app/Contents/Resources/box_part7.png
+xbox_part7.png
+lSLF07#2@18"Copy box_part7.png325103110#325103110#0(0"0(0#0#82"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part7.png8622899904#439"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part7.png /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources0#
+
+CCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/box_part8.png box_part8.png
+s325103110.815116
+e325103110.824863
+r1
+xCpResource
+xbuild/Debug/GFX_Edit_View.app/Contents/Resources/box_part8.png
+xbox_part8.png
+lSLF07#2@18"Copy box_part8.png325103110#325103110#0(0"0(0#0#82"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part8.png8621724352#439"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part8.png /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources0#
+
+CCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/box_part9.png box_part9.png
+s325103110.822309
+e325103110.833727
+r1
+xCpResource
+xbuild/Debug/GFX_Edit_View.app/Contents/Resources/box_part9.png
+xbox_part9.png
+lSLF07#2@18"Copy box_part9.png325103110#325103110#0(0"0(0#0#82"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part9.png8620059488#439"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/box_part9.png /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources0#
+
+CCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/button_gloss_normal_part1.png button_gloss_normal_part1.png
+s325111556.236183
+e325111556.322917
+r1
+xCpResource
+xbuild/Debug/GFX_Edit_View.app/Contents/Resources/button_gloss_normal_part1.png
+xbutton_gloss_normal_part1.png
+lSLF07#2@34"Copy button_gloss_normal_part1.png325111556#325111556#0(0"0(0#0#98"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/button_gloss_normal_part1.png8624742016#455"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/button_gloss_normal_part1.png /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources0#
+
+CCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/button_gloss_normal_part2.png button_gloss_normal_part2.png
+s325111556.251602
+e325111556.324403
+r1
+xCpResource
+xbuild/Debug/GFX_Edit_View.app/Contents/Resources/button_gloss_normal_part2.png
+xbutton_gloss_normal_part2.png
+lSLF07#2@34"Copy button_gloss_normal_part2.png325111556#325111556#0(0"0(0#0#98"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/button_gloss_normal_part2.png8623421408#455"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/button_gloss_normal_part2.png /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources0#
+
+CCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/button_gloss_normal_part3.png button_gloss_normal_part3.png
+s325111556.264027
+e325111556.323108
+r1
+xCpResource
+xbuild/Debug/GFX_Edit_View.app/Contents/Resources/button_gloss_normal_part3.png
+xbutton_gloss_normal_part3.png
+lSLF07#2@34"Copy button_gloss_normal_part3.png325111556#325111556#0(0"0(0#0#98"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/button_gloss_normal_part3.png8623385696#455"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/button_gloss_normal_part3.png /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources0#
+
+CCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/button_normal_part1.png button_normal_part1.png
+s325111556.267255
+e325111556.327629
+r1
+xCpResource
+xbuild/Debug/GFX_Edit_View.app/Contents/Resources/button_normal_part1.png
+xbutton_normal_part1.png
+lSLF07#2@28"Copy button_normal_part1.png325111556#325111556#0(0"0(0#0#92"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/button_normal_part1.png8623390336#449"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/button_normal_part1.png /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources0#
+
+CCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/button_normal_part2.png button_normal_part2.png
+s325111556.269163
+e325111556.332954
+r1
+xCpResource
+xbuild/Debug/GFX_Edit_View.app/Contents/Resources/button_normal_part2.png
+xbutton_normal_part2.png
+lSLF07#2@28"Copy button_normal_part2.png325111556#325111556#0(0"0(0#0#92"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/button_normal_part2.png8627607424#449"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/button_normal_part2.png /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources0#
+
+CCpResource build/Debug/GFX_Edit_View.app/Contents/Resources/button_normal_part3.png button_normal_part3.png
+s325111556.274776
+e325111556.327363
+r1
+xCpResource
+xbuild/Debug/GFX_Edit_View.app/Contents/Resources/button_normal_part3.png
+xbutton_normal_part3.png
+lSLF07#2@28"Copy button_normal_part3.png325111556#325111556#0(0"0(0#0#92"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/button_normal_part3.png8627547616#449"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/button_normal_part3.png /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Resources0#
+
+CLd /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/MacOS/GFX_Edit_View normal x86_64
+s324928237.721805
+e324928237.776682
+r1
+xLd
+x/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/MacOS/GFX_Edit_View
+xnormal
+xx86_64
+lSLF07#2@120"Link /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/MacOS/GFX_Edit_View324928237#324928237#0(0"0(0#0#0"8631003680#662"    cd /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug -F/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug -filelist /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/GFX_Edit_View.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/MacOS/GFX_Edit_View0#
+
+CLd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/MacOS/GFX_Edit_View normal x86_64
+s325196258.059286
+e325196258.130572
+r1
+xLd
+x/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/MacOS/GFX_Edit_View
+xnormal
+xx86_64
+lSLF07#2@132"Link /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/MacOS/GFX_Edit_View325196258#325196258#0(0"0(0#0#0"8598895456#762"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug -F/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug -filelist /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/Objects-normal/x86_64/GFX_Edit_View.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Quartz -framework QuartzCore -o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/MacOS/GFX_Edit_View0#
+
+CProcessInfoPlistFile /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Info.plist GFX_Edit_View-Info.plist
+s324917016.629915
+e324917016.651920
+r1
+xProcessInfoPlistFile
+x/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Info.plist
+xGFX_Edit_View-Info.plist
+lSLF07#2@32"Process GFX_Edit_View-Info.plist324917016#324917016#0(0"0(0#0#81"/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/GFX_Edit_View-Info.plist13229804949078112#382"    cd /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View    builtin-infoPlistUtility GFX_Edit_View-Info.plist -genpkginfo /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Info.plist0#
+
+CProcessInfoPlistFile /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Info.plist GFX_Edit_View-Info.plist
+s325196669.451238
+e325196669.485039
+r1
+xProcessInfoPlistFile
+x/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Info.plist
+xGFX_Edit_View-Info.plist
+lSLF07#2@32"Process GFX_Edit_View-Info.plist325196669#325196669#0(0"0(0#0#93"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/GFX_Edit_View-Info.plist8602889088#418"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    builtin-infoPlistUtility GFX_Edit_View-Info.plist -genpkginfo /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GFX_Edit_View_Prefix-blcpolcghnyrjafegulkyppflwpk/GFX_Edit_View_Prefix.pch.gch GFX_Edit_View_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s325196670.298808
+e325196678.464716
+r1
+xProcessPCH
+x/var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GFX_Edit_View_Prefix-blcpolcghnyrjafegulkyppflwpk/GFX_Edit_View_Prefix.pch.gch
+xGFX_Edit_View_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile GFX_Edit_View_Prefix.pch325196670#325196678#0(0"0(0#0#93"/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/GFX_Edit_View_Prefix.pch8603554016#1770"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-generated-files.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-own-target-headers.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-all-target-headers.hmap -iquote /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-project-headers.hmap -F/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/include -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources/x86_64 -I/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources -c /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/GFX_Edit_View_Prefix.pch -o /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GFX_Edit_View_Prefix-blcpolcghnyrjafegulkyppflwpk/GFX_Edit_View_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GFX_Edit_View_Prefix-cgqwtzxvwrxnrpesrhwcvotxnscs/GFX_Edit_View_Prefix.pch.gch GFX_Edit_View_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s324917017.260072
+e324917023.296380
+r1
+xProcessPCH
+x/var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GFX_Edit_View_Prefix-cgqwtzxvwrxnrpesrhwcvotxnscs/GFX_Edit_View_Prefix.pch.gch
+xGFX_Edit_View_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile GFX_Edit_View_Prefix.pch324917017#324917023#0(0"0(0#0#81"/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/GFX_Edit_View_Prefix.pch8611936672#1650"    cd /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-generated-files.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-own-target-headers.hmap -I/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-all-target-headers.hmap -iquote /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/GFX_Edit_View-project-headers.hmap -F/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug -I/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/include -I/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources/x86_64 -I/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/GFX_Edit_View.build/Debug/GFX_Edit_View.build/DerivedSources -c /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/GFX_Edit_View_Prefix.pch -o /var/folders/AO/AOM0M4LDETehIwHybRhbHk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GFX_Edit_View_Prefix-cgqwtzxvwrxnrpesrhwcvotxnscs/GFX_Edit_View_Prefix.pch.gch0#
+
+CTouch /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app
+s324928237.776797
+e324928237.782029
+r1
+xTouch
+x/Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app
+lSLF07#2@92"Touch /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app324928237#324928237#0(0"0(0#0#0"8617703296#173"    cd /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View    /usr/bin/touch -c /Users/Simoon/Documents/XCode/SpectralShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app0#
+
+CTouch /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app
+s325196258.130700
+e325196258.134873
+r1
+xTouch
+x/Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app
+lSLF07#2@104"Touch /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app325196258#325196258#0(0"0(0#0#0"8594673568#197"    cd /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View    /usr/bin/touch -c /Users/Simoon/Documents/XCode/SpectralShit/MistAndShit/GFX_Edit_View/build/Debug/GFX_Edit_View.app0#
+
