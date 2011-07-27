@@ -1,0 +1,18 @@
+Architekturumbau:
+
+Anstatt dass die einzelnen Views Referenzen zu den anderen Views haben 
+(Zb. das ImageEdit View hat eine Referenz zu einem Color Well), werden wir das so machen:
+
+Wenn das ImageView eine neue Farbe picked, wird es an sein delegate (den Window Controller) eine Nachricht schicken:
+"User hat geklickt an X,Y" (da kann man ne IBAction dran kleben). Falls der User das Color Picker Tool aktiv hat,
+wird der Controller wird dann das Bild hernehmen, rausfinden welche Farbe an X,Y ist und dann das ColorWell updaten.
+
+Wenn man so die Views nach diesem Prinzip entkoppelt, hat man ein echtes UI Kit mit wiederverwendbaren,
+stand alone views und kann die App einfacher erweitern, aendern. Der Window Controller ist quasi die
+zentrale Steuerstelle fuer den ganzen Krempel, der Viewdaten, etc. verarbeitet und dann Aktionen ausloest.
+
+Darum heisst er auch Controller. Views sind nur dazu da Daten anzuzeigen (und User Input weiterzuleiten).
+
+Die Bild/Sound daten sind das Model, welches der Controller manipuliert und welches die Views anzeigen.
+
+Bam: Model, View, Controller!

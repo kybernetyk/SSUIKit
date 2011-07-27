@@ -21,16 +21,12 @@
 @implementation Controller
 
 -(void)awakeFromNib {
-
-	
 	NSLog(@"Controller: ...");
 	[_colorWell setColorWithRed:0.1 green:0.1 blue:0.1];
 
 
 //	CFURLRef url = CFURLCreateFromFileSystemRepresentation (kCFAllocatorDefault, "/1.png", strlen("/1.png"), NO);
 	//CFURLRef url = CFURLCreateFromFileSystemRepresentation (kCFAllocatorDefault, "/test.png", strlen("/test.png"), NO);
-	
-	
 	[_imageEdit setImage: [NSImage imageNamed: @"test.png"]];
 	[_imageEdit registerColorWell: [_colorWell getID]];
 	[_imageEdit registerLoupeView: [_loupeView getID]];

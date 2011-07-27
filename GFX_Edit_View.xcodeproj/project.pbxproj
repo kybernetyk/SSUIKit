@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0386C89113E04A7E00D30913 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 0386C89013E04A7E00D30913 /* test.png */; };
+		0386C89413E04B7F00D30913 /* UMBAU.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0386C89313E04B7F00D30913 /* UMBAU.txt */; };
 		03CB401B13E011510077A35D /* colorpicker.png in Resources */ = {isa = PBXBuildFile; fileRef = 03CB400B13E011510077A35D /* colorpicker.png */; };
 		03CB401C13E011510077A35D /* crop.png in Resources */ = {isa = PBXBuildFile; fileRef = 03CB400C13E011510077A35D /* crop.png */; };
 		03CB401D13E011510077A35D /* eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 03CB400D13E011510077A35D /* eraser.png */; };
@@ -53,6 +54,7 @@
 
 /* Begin PBXFileReference section */
 		0386C89013E04A7E00D30913 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		0386C89313E04B7F00D30913 /* UMBAU.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UMBAU.txt; sourceTree = "<group>"; };
 		03CB400B13E011510077A35D /* colorpicker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorpicker.png; sourceTree = "<group>"; };
 		03CB400C13E011510077A35D /* crop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crop.png; sourceTree = "<group>"; };
 		03CB400D13E011510077A35D /* eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eraser.png; sourceTree = "<group>"; };
@@ -217,6 +219,7 @@
 		29B97314FDCFA39411CA2CEA /* GFX_Edit_View */ = {
 			isa = PBXGroup;
 			children = (
+				0386C89313E04B7F00D30913 /* UMBAU.txt */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -393,6 +396,7 @@
 				03CB402813E011510077A35D /* Repeat.png in Resources */,
 				03CB402913E011510077A35D /* Stop.png in Resources */,
 				0386C89113E04A7E00D30913 /* test.png in Resources */,
+				0386C89413E04B7F00D30913 /* UMBAU.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
