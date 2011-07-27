@@ -11,15 +11,23 @@
 #import "SSLoupe.h"
 
 
+@interface SSImageEdit () //private category to get rid of warnings
+	
+- (void)myAddTrackingArea;
+- (void)myRemoveTrackingArea;
+- (void)updateLoupeView: (CGPoint)position;
+- (void)updateColorWells: (CGColorRef)color;
+@end
+
 @implementation SSImageEdit
-@synthesize _nsImage;
+@synthesize image;
+@synthesize filter;
 
 - (id)initWithFrame:(NSRect)frameRect {
 
 	self = [super initWithFrame:frameRect];
 	
 	if (self) {
-		_cgImage = NULL;
 		_currentColor = CGColorCreateGenericRGB(0.0, 0.0, 0.0, 1.0);
 		_zoomX = 1.0;
 		_zoomY = 1.0;
@@ -41,9 +49,10 @@
 	return self;
 }
 
-- (void) setImage:(CGImageRef)image
+- (void) setImage:(NSImage*)_image
 {	
-	_cgImage = CGImageCreateCopy(image);
+	[image release];
+	image = [_image retain];
 	[self setLoupeImage];
 	[self setNeedsDisplay: YES];
 }
@@ -89,9 +98,11 @@
 		NSLog(@"shit stinkt");
 		return;
 	}*/
-	NSImage *img = [[[NSImage alloc] initWithContentsOfURL: url] autorelease];
-	_cgImage = [img CGImageForProposedRect: NULL context: NULL hints: nil];
-	CFRetain(_cgImage);
+
+	NSImage *img = [[NSImage alloc] initWithContentsOfURL: url];
+	[self setImage: img];
+	[img release];
+	
 	
 	[self setLoupeImage];
 	[self needsDisplay];
@@ -119,8 +130,9 @@
 //	NSInteger pointX = trunc(point.x);
 //	NSInteger pointY = trunc(point.y);
 	
-	CGImageRef cgImage = CGImageCreateCopy(_cgImage);  //wenn der shit keinen sinn ergibt vllt mal _cgImage ausprobieren
+//	CGImageRef cgImage = CGImageCreateCopy(_cgImage);  //wenn der shit keinen sinn ergibt vllt mal _cgImage ausprobieren
 	
+	CGImageRef cgImage = [[self image] CGImageForProposedRect: NULL context: NULL hints: nil];
 	NSUInteger width  = CGImageGetWidth(cgImage);
 	NSUInteger height = CGImageGetHeight(cgImage);
 	CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();	
@@ -155,22 +167,16 @@
 	
 }
 
-
-- (CGImageRef) getImage
-{
-	return _cgImage;
-}
-
-- (void)showImage: (CGImageRef)image 
+- (void)showImage
 {
 	CGContextRef myContext = [[NSGraphicsContext currentContext] graphicsPort];
 	CGContextBeginTransparencyLayer(myContext, NULL);
-			
+	CGImageRef _image = [[self image] CGImageForProposedRect: NULL context: NULL hints: nil];
 		CGRect imageRect;
-		imageRect = CGRectMake(0.0, 0.0, CGImageGetWidth(image), CGImageGetHeight(image));
+		imageRect = CGRectMake(0.0, 0.0, CGImageGetWidth(_image), CGImageGetHeight(_image));
 	
 		CGContextScaleCTM(myContext, _zoomX, _zoomY);
-		CGContextDrawImage(myContext, imageRect, image);
+		CGContextDrawImage(myContext, imageRect, _image);
 	
 	CGContextEndTransparencyLayer(myContext);
 }
@@ -185,7 +191,7 @@
 	NSRectFill(dirtyRect);
 
 	
-	[self showImage:_cgImage];
+	[self showImage];
 	
 	
 
@@ -265,7 +271,7 @@
 
 - (void)setLoupeImage
 {
-	[_loupeView setImage:_cgImage];
+	[_loupeView setImage: [[self image] CGImageForProposedRect: NULL context: NULL hints: nil]];
 }
 
 - (void)updateLoupeView: (CGPoint)position
@@ -304,7 +310,7 @@
 
 - (void) dealloc {
 	[self myRemoveTrackingArea];
-	[_nsImage release];
+	[self setImage: nil];
 	[super dealloc];
 }
 

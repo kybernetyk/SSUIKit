@@ -7,43 +7,38 @@
 
 #import <Cocoa/Cocoa.h>
 #import "SSConfig.h"
+#import "SSLoupe.h"
+
+//TODO: decople loupe view and image edit view by using notifications
 
 @interface SSImageEdit : NSView {
-
-
   // ids fuer upzudatende Views
-	
 	id			_colorWell;
-	id			_loupeView;
+	SSLoupe 	*_loupeView;
 	
   // interne Variablen
-	
-	NSImage*    _nsImage;
-	//CGImageRef  _cgImage;
+@private
+	NSImage*    image;
 	float       _zoomX;
 	float       _zoomY;
     CGColorRef  _currentColor;
 	
 	NSTrackingArea *myTrackingArea;
-	
-	
 }
 
 @property (retain)   CIFilter* filter;
+@property (readwrite, retain) NSImage *image;
+
+#if 0
 @property (readonly) NSImage* _orgImage;
+#endif 
 
-@property (readwrite, retain) NSImage *_nsImage;
-
-- (CGImageRef) getImage;
-- (void) setImage;
 - (void)setImageFromFile: (NSURL *) url;
 - (void)setZoomX:(float)xZoom;
 - (void)setZoomY:(float)yZoom;
 
-- (void)updateLoupeView: (CGPoint)position;
 - (void)registerColorWell:(id)colorWell;
 - (void)setLoupeImage;
-- (void)updateLoupeView;
 
 
 
