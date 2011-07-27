@@ -9,7 +9,11 @@
 #import "SSConfig.h"
 #import "SSLoupe.h"
 
-//TODO: decople loupe view and image edit view by using notifications
+@class SSImageEdit;
+@protocol SSImageEditDelegate
+- (void)imageEditView: (SSImageEdit *) view mouseClickedAtPoint: (NSPoint) point;
+- (void)imageEditView: (SSImageEdit *) view mouseMouseMovedToPoint: (NSPoint) point;
+@end
 
 @interface SSImageEdit : NSView {
   // ids fuer upzudatende Views
@@ -25,17 +29,13 @@
 	
 	NSTrackingArea *myTrackingArea;
 	
-	id delegate;
+	id <SSImageEditDelegate> delegate;
 }
 
-@property (retain)   CIFilter* filter;
+@property (retain) CIFilter* filter;
 @property (readwrite, retain) NSImage *image;
 
 @property (readwrite, assign) id delegate;
-
-#if 0
-@property (readonly) NSImage* _orgImage;
-#endif 
 
 - (void)setZoomX:(float)xZoom;
 - (void)setZoomY:(float)yZoom;

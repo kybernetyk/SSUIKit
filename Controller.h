@@ -17,7 +17,7 @@
 #import "SSLoupe.h"
 #import "SSColorWell.h"
 
-@interface Controller : NSObject {
+@interface Controller : NSObject <SSImageEditDelegate> {
 
 
 // TestCrap:

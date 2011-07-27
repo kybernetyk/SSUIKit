@@ -10,6 +10,11 @@
 #import <Quartz/Quartz.h>
 #import <QuartzCore/QuartzCore.h>
 
+@interface SSLoupe()
+- (void) zoomImage;
+
+@end
+
 @implementation SSLoupe
 @synthesize image;
 

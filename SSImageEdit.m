@@ -12,11 +12,8 @@
 
 
 @interface SSImageEdit () //private category to get rid of warnings
-//- (void)setLoupeImage;	
 - (void)myAddTrackingArea;
 - (void)myRemoveTrackingArea;
-//- (void)updateLoupeView: (CGPoint)position;
-//- (void)updateColorWells: (CGColorRef)color;
 @end
 
 @implementation SSImageEdit
@@ -25,28 +22,14 @@
 @synthesize delegate;
 
 - (id)initWithFrame:(NSRect)frameRect {
-
 	self = [super initWithFrame:frameRect];
-	
 	if (self) {
 		_currentColor = CGColorCreateGenericRGB(0.0, 0.0, 0.0, 1.0);
 		_zoomX = 1.0;
 		_zoomY = 1.0;
-//		CFURLRef url = CFURLCreateFromFileSystemRepresentation (kCFAllocatorDefault,
-//																"/test.png",
-//																strlen("/test.png"),
-//																NO);
-		
 		[self myAddTrackingArea];
-	//	[self setImage: [self loadAImageFromFile:url]];
-	//	[self setImageFromFile:url];
 	}
 	
-	return self;
-}
-
-- (id)getID
-{
 	return self;
 }
 
@@ -54,62 +37,8 @@
 {	
 	[image release];
 	image = [_image retain];
-//	[self setLoupeImage];
 	[self setNeedsDisplay: YES];
 }
-
-#if 0
-- (CGImageRef)loadAImageFromFile: (NSURL *)url
-{
-	CGImageRef aImage = NULL;
-	
-	CGDataProviderRef imageProvider = CGDataProviderCreateWithURL((CFURLRef)url);
-	if(imageProvider == NULL)
-	{
-		NSLog(@"nazis sind cool");
-		return NULL;
-	}
-	
-	aImage = CGImageCreateWithPNGDataProvider(imageProvider, NULL, true, kCGRenderingIntentDefault);
-
-	CGDataProviderRelease(imageProvider);
-	if(aImage == NULL) {
-		NSLog(@"shit stinkt");
-		return NULL;
-	}
-	
-	return [(id)aImage autorelease];
-
-}
-
-
-- (void)setImageFromFile: (NSURL *)url
-{
-/*	CGDataProviderRef imageProvider = CGDataProviderCreateWithURL(url);
-	if(imageProvider == NULL)
-	{
-		NSLog(@"nazis sind cool");
-		return;
-	}
-	
-	_cgImage = CGImageCreateWithPNGDataProvider(imageProvider, NULL, true, kCGRenderingIntentDefault);
-	
-	CGDataProviderRelease(imageProvider);
-	if(_cgImage == NULL) {
-		NSLog(@"shit stinkt");
-		return;
-	}*/
-
-	NSImage *img = [[NSImage alloc] initWithContentsOfURL: url];
-	[self setImage: img];
-	[img release];
-	
-	
-	[self setLoupeImage];
-	[self needsDisplay];
-}
-
-#endif
 
 - (void) resetCursorRects
 {
@@ -121,16 +50,9 @@
 
 - (NSColor *) colorAtPoint: (NSPoint) point
 {
-	if(!CGRectContainsPoint(CGRectMake(0, 0, [self bounds].size.width, [self bounds].size.height), point))
-	{
-//		return CGColorCreateGenericRGB(0.0, 0.0, 0.0, 1.0);
+	if(!CGRectContainsPoint(CGRectMake(0, 0, [self bounds].size.width, [self bounds].size.height), point)) {
 		return [NSColor colorWithDeviceRed:0.0 green:0.0 blue:0.0 alpha:1.0];
 	}
-	
-//	NSInteger pointX = trunc(point.x);
-//	NSInteger pointY = trunc(point.y);
-	
-//	CGImageRef cgImage = CGImageCreateCopy(_cgImage);  //wenn der shit keinen sinn ergibt vllt mal _cgImage ausprobieren
 	
 	CGImageRef cgImage = [[self image] CGImageForProposedRect: NULL context: NULL hints: nil];
 	NSUInteger width  = CGImageGetWidth(cgImage);
@@ -183,18 +105,9 @@
  
 
 - (void)drawRect:(NSRect)dirtyRect {
-	
-//	CGContextRef myContext = [[NSGraphicsContext currentContext] graphicsPort];
-	
-
 	[[NSColor colorWithDeviceRed: 0.2431 green: 0.2431 blue: 0.2431 alpha: 1.0] set];
 	NSRectFill(dirtyRect);
-
-	
 	[self showImage];
-	
-	
-
 	[[NSColor colorWithDeviceRed:0.4392    green:0.4392    blue:0.4392    alpha: 1] set];
 	NSFrameRect(dirtyRect);
 	[[NSColor colorWithDeviceRed:0.1686 green:0.1686 blue:0.1686 alpha: 1.0] set]; //sets dark stroke color
@@ -261,45 +174,9 @@
 		myTrackingArea = nil;
 	}
 }
-//// ************ METHODEN FUER FREMDVIEWS:
-#if 0
-- (void)registerLoupeView:(id)loupView
-{
-	_loupeView = loupView;
-	
-	[self setLoupeImage];
-	[self updateLoupeView:(CGPointMake(0.0f, 0.0f))];
-}
 
-- (void)setLoupeImage
-{
-	[_loupeView setImage: [[self image] CGImageForProposedRect: NULL context: NULL hints: nil]];
-}
-
-- (void)updateLoupeView: (CGPoint)position
-{	
-	[_loupeView setMousePosition: position ];
-}
-
-- (void)updateColorWells: (CGColorRef)color
-{
-//	if(_colorWell)
-		[_colorWell setColorWithCGColorRef:color];
-}
-
-- (void)registerColorWell:(id)colorWell
-{
-	// expirementell und provisorisch
-	// nachher mal mit einem array bauen ... zwecks erweiterbarkeit
-	
-	_colorWell = colorWell;
-	[self updateColorWells: _currentColor];
-}
-
-#endif
 
 // **** BULLSHIT DER GEBRAUCHT WIRD 
-
 - (BOOL)acceptsFirstResponder
 {
 	return YES;

@@ -20,7 +20,7 @@
 	NSLog(@"             square dot product. \n               ");
 	NSLog(@"**************************************************");
 	
-	float *inputOne, *inputTwo, *result, dotProduct;
+	float *inputOne, *inputTwo, *result;
 	int32_t strideOne, strideTwo, resultStride;
 	uint32_t i, size;
 	

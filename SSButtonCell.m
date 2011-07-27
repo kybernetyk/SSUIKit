@@ -38,6 +38,7 @@
 	}
 	
 	[_title dealloc];	
+	return frame;
 } 
 
 - (void)drawBezelWithFrame:(NSRect)frame inView:(NSView *)controlView
