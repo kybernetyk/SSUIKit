@@ -23,7 +23,7 @@
 	CGContextRef myContext = [[NSGraphicsContext currentContext] graphicsPort];
 	CGContextBeginTransparencyLayer(myContext, NULL);
 	
-		if(ShowSSStyle)
+#if ShowSSStyle	
 		{
 
 			if(dirtyRect.size.width > 5)
@@ -39,13 +39,14 @@
 				CGContextFillRect(myContext, CGRectMake(0, 0, 1, dirtyRect.size.height -7));
 			}
 			
-		} else {
+		} 
+#else
 		
 			CGContextSetRGBFillColor(myContext, 0, 0, 0, 0.2);
 			CGContextFillRect(myContext, CGRectMake(1, 0, 1, dirtyRect.size.height -7));
 			CGContextSetRGBFillColor(myContext, 1, 1, 1, 0.1);
 			CGContextFillRect(myContext, CGRectMake(0, 0, 1, dirtyRect.size.height -7));
-		}
+#endif
 	
 	CGContextEndTransparencyLayer(myContext);
 	[self unlockFocus];

@@ -16,9 +16,8 @@
 	
 	CGContextRef myContext = [[NSGraphicsContext currentContext] graphicsPort];
 	
-	if(ShowSSStyle)
-	{
-		[self lockFocus];
+#if ShowSSStyle	
+	[self lockFocus];
 		// **** aeusserer weisser gradient:
 		
 		CGContextBeginTransparencyLayer(myContext, NULL);
@@ -186,9 +185,9 @@
 		
 		[self unlockFocus];
 		
-	} else {
+#else
 		[super drawRect:dirtyRect];
-	}
+#endif
 }
 
 - (BOOL)isOpaque

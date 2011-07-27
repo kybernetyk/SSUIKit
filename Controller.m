@@ -31,9 +31,7 @@
 	//CFURLRef url = CFURLCreateFromFileSystemRepresentation (kCFAllocatorDefault, "/test.png", strlen("/test.png"), NO);
 	
 	
-	NSURL *url = [NSURL fileURLWithPath: @"/test.png"];
-	
-	[_imageEdit setImageFromFile:url];
+	[_imageEdit setImage: [NSImage imageNamed: @"test.png"]];
 	[_imageEdit registerColorWell: [_colorWell getID]];
 	[_imageEdit registerLoupeView: [_loupeView getID]];
 	

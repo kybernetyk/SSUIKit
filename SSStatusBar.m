@@ -21,9 +21,8 @@
 {
 	CGContextRef myContext = [[NSGraphicsContext currentContext] graphicsPort];
 //	CGContextSetShouldAntialias(myContext, NO);
-	if(ShowSSStyle)
-	{
-		// Neuer CoreGraphics Code:
+#if ShowSSStyle	
+	// Neuer CoreGraphics Code:
 		[self lockFocus];
 		CGContextBeginTransparencyLayer(myContext, NULL);
 		
@@ -80,13 +79,13 @@
 */		
 // **************************************************************************************************** */
 		
-	} else {
+#else
 		
 		CGContextSetRGBFillColor(myContext, 0, 0, 0, 0.4);
 		CGContextFillRect(myContext, CGRectMake(4, dirtyRect.size.height-3, dirtyRect.size.width -8, 1));
 		CGContextSetRGBStrokeColor(myContext, 1, 1, 1, 0.5);
 		CGContextStrokeRect(myContext, CGRectMake(4, dirtyRect.size.height-4, dirtyRect.size.width -8, 1));
-	}
+#endif
 
 }
 	

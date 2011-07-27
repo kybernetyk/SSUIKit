@@ -42,9 +42,7 @@
 
 - (void)drawBezelWithFrame:(NSRect)frame inView:(NSView *)controlView
 {
-	if(ShowSSStyle)
-	{
-	
+#if ShowSSStyle	
 		krueppelHilfe = frame;
 		
 		CGContextRef myContext = [[NSGraphicsContext currentContext] graphicsPort];
@@ -253,11 +251,11 @@
 		CGContextEndTransparencyLayer(myContext);
 		
 	
-	} else {
+#else
 		
 		[super drawBezelWithFrame:(NSRect)frame inView:(NSView *)controlView];
 		
-	}
+#endif
 }
 
 //***********************************************************************************************************
@@ -280,8 +278,7 @@
 	// und so shit fuer disabled, gerade am start und normal muss rein
 	// ausserdem das color mal aendern auf das miese hellblau was ich eig. nutzen will
 	
-	if(ShowSSStyle)
-	{
+#if ShowSSStyle	
 	NSGraphicsContext *ctx = [NSGraphicsContext currentContext];
 	CGContextRef contextRef = [ctx graphicsPort];
 	 
@@ -318,10 +315,9 @@
 		 CGContextRestoreGState(contextRef);
 		 CFRelease(imageRef);
 	 }
-	}else {
-		
+#else
 		[super drawImage:(NSImage *)image withFrame:(NSRect)frame inView:(NSView *)controlView];
-	}
+#endif
 	
 }
 

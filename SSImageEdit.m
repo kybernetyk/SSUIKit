@@ -80,7 +80,7 @@
 	return [(id)aImage autorelease];
 
 }
-#endif
+
 
 - (void)setImageFromFile: (NSURL *)url
 {
@@ -108,6 +108,7 @@
 	[self needsDisplay];
 }
 
+#endif
 
 - (void) resetCursorRects
 {

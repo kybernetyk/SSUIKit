@@ -18,15 +18,14 @@
 }
 
 - (void)drawRect: (NSRect)dirtyRect {
-	if(ShowSSStyle)
-	{
-		CGContextRef myContext = [[NSGraphicsContext currentContext] graphicsPort];
+#if ShowSSStyle	
+	CGContextRef myContext = [[NSGraphicsContext currentContext] graphicsPort];
 		CGContextSetRGBFillColor (myContext, 0.3490, 0.3490, 0.3490, 1.0);
 		CGContextFillRect        (myContext, CGRectMake(0, 0, [self bounds].size.width, [self bounds].size.height));
 		
-	} else {
+#else
 		[super drawRect:dirtyRect];
-	}
+#endif
 }
 
 - (BOOL)isOpaque
