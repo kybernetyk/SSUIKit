@@ -11,13 +11,13 @@
 #import <QuartzCore/QuartzCore.h>
 
 @implementation SSLoupe
+@synthesize image;
 
 - (id)initWithFrame:(NSRect)frameRect
 {
 	self = [super initWithFrame:frameRect];
 	
 	if (self) {
-		_cgImage = NULL;
 		_zPosition = NSMakePoint(0, 0);
 		_zFactor = 1.0f;
 		
@@ -73,14 +73,14 @@
 //}
 
 
-- (void)setImage:(CGImageRef)image
-{
-	_cgImage = CGImageCreateCopy(image);
-	
-		NSLog(@"image in loupe set");
-	[self setNeedsDisplay: YES];
-//	[self zoomImage];
-}
+//- (void)setImage:(CGImageRef)image
+//{
+//	_cgImage = CGImageCreateCopy(image);
+//	
+//		NSLog(@"image in loupe set");
+//	[self setNeedsDisplay: YES];
+////	[self zoomImage];
+//}
 
 -(void)setZoomFactor:(float)zoom
 {
@@ -115,7 +115,7 @@
 	// _cgImage entsprechend zoomen
 	// dann ein 128x128 großes dingsie ausschneiden
 	// und dieses anzeigen
-	
+	CGImageRef _cgImage = [[self image] CGImageForProposedRect: NULL context: NULL hints: nil];
 	CGRect imageRect;
 	CGContextRef myContext = [[NSGraphicsContext currentContext] graphicsPort];
 	CGContextBeginTransparencyLayer(myContext, NULL);
@@ -193,9 +193,7 @@
 }
 
 - (void) dealloc {
-//	[_zImage release];
-	[_cgImage release];
-	[_nsImage release];
+	[self setImage: nil];
 	[super dealloc];
 	
 }

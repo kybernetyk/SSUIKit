@@ -48,8 +48,9 @@
 	
 //	IBOutlet NSImageView;
 	
+	NSImage *image;
 }
-
+@property (readwrite, retain) NSImage *image;
 // toolbar-select Tool
 	
 -(IBAction)selectToolMouse: (id)sender;

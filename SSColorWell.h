@@ -18,6 +18,7 @@
 
 //@property (readwrite) 
 
+- (void) setColor: (NSColor *) color;
 - (void) setColorWithCGColorRef: (CGColorRef)color;
 - (void) setColorWithRed:(float)Red green:(float)Green blue:(float)Blue;
 - (id) getID;

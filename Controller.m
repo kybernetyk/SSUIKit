@@ -19,6 +19,7 @@
 #import "vecLibSample.h"
 
 @implementation Controller
+@synthesize image;
 
 -(void)awakeFromNib {
 	NSLog(@"Controller: ...");
@@ -27,9 +28,15 @@
 
 //	CFURLRef url = CFURLCreateFromFileSystemRepresentation (kCFAllocatorDefault, "/1.png", strlen("/1.png"), NO);
 	//CFURLRef url = CFURLCreateFromFileSystemRepresentation (kCFAllocatorDefault, "/test.png", strlen("/test.png"), NO);
-	[_imageEdit setImage: [NSImage imageNamed: @"test.png"]];
-	[_imageEdit registerColorWell: [_colorWell getID]];
-	[_imageEdit registerLoupeView: [_loupeView getID]];
+	[self setImage: [NSImage imageNamed: @"test.png"]];
+	
+	//maybe add a datasource to loupe view and co so they can request the current image when needed?
+	[_imageEdit setImage: [self image]];
+	[_loupeView setImage: [self image]];
+	
+//	[_imageEdit registerColorWell: [_colorWell getID]];
+//	[_imageEdit registerLoupeView: [_loupeView getID]];
+	[_imageEdit setDelegate: self];
 	
 	[_niggerButton setShowsBorderOnlyWhileMouseInside:YES];
 }
@@ -179,4 +186,15 @@
 }
 
 
+#pragma mark - ImageEditView delegate
+- (void)imageEditView: (SSImageEdit *) view mouseClickedAtPoint: (NSPoint) point
+{
+	//if (selectedTool == picker)
+	[_colorWell setColor: [_imageEdit colorAtPoint: point]];
+}
+
+- (void)imageEditView: (SSImageEdit *) view mouseMouseMovedToPoint: (NSPoint) point
+{
+	[_loupeView setMousePosition: point];
+}
 @end

@@ -12,16 +12,17 @@
 
 
 @interface SSImageEdit () //private category to get rid of warnings
-- (void)setLoupeImage;	
+//- (void)setLoupeImage;	
 - (void)myAddTrackingArea;
 - (void)myRemoveTrackingArea;
-- (void)updateLoupeView: (CGPoint)position;
-- (void)updateColorWells: (CGColorRef)color;
+//- (void)updateLoupeView: (CGPoint)position;
+//- (void)updateColorWells: (CGColorRef)color;
 @end
 
 @implementation SSImageEdit
 @synthesize image;
 @synthesize filter;
+@synthesize delegate;
 
 - (id)initWithFrame:(NSRect)frameRect {
 
@@ -53,7 +54,7 @@
 {	
 	[image release];
 	image = [_image retain];
-	[self setLoupeImage];
+//	[self setLoupeImage];
 	[self setNeedsDisplay: YES];
 }
 
@@ -118,14 +119,12 @@
 }
 
 
-- (CGColorRef) pickColorAtPointX:(float)x Y:(float)y
+- (NSColor *) colorAtPoint: (NSPoint) point
 {
-	
-	CGPoint point = CGPointMake(x, y);
-	
 	if(!CGRectContainsPoint(CGRectMake(0, 0, [self bounds].size.width, [self bounds].size.height), point))
 	{
-		return CGColorCreateGenericRGB(0.0, 0.0, 0.0, 1.0);
+//		return CGColorCreateGenericRGB(0.0, 0.0, 0.0, 1.0);
+		return [NSColor colorWithDeviceRed:0.0 green:0.0 blue:0.0 alpha:1.0];
 	}
 	
 //	NSInteger pointX = trunc(point.x);
@@ -164,8 +163,8 @@
 	CGFloat blue   = (CGFloat)pixelData[2] / 255.0f;
 	CGFloat alpha  = (CGFloat)pixelData[3] / 255.0f;
 	
-	return CGColorCreateGenericRGB(red, green, blue, alpha);
-	
+	//return CGColorCreateGenericRGB(red, green, blue, alpha);
+	return [NSColor colorWithDeviceRed: red green: green blue: blue alpha: alpha];
 }
 
 - (void)showImage
@@ -223,8 +222,9 @@
 	CGPoint clickLocation;
 	clickLocation = [self convertPoint: [event locationInWindow] fromView: nil];
 	NSLog(@"x:%f, y:%f", clickLocation.x, clickLocation.y);	
-	[self updateColorWells: [self pickColorAtPointX:clickLocation.x Y:clickLocation.y]];
-	[self updateLoupeView: CGPointMake(clickLocation.x/_zoomX, clickLocation.y/_zoomY)];
+	//[self updateColorWells: [self pickColorAtPointX:clickLocation.x Y:clickLocation.y]];
+//	[self updateLoupeView: CGPointMake(clickLocation.x/_zoomX, clickLocation.y/_zoomY)];
+	[delegate imageEditView: self mouseClickedAtPoint: clickLocation];
 }
 
 - (void)myAddTrackingArea
@@ -248,7 +248,8 @@
 {
 	NSPoint p = [theEvent locationInWindow];
 	NSPoint motionPoint = [self convertPoint:p fromView:nil];
-	[self updateLoupeView: CGPointMake(motionPoint.x / _zoomX, motionPoint.y / _zoomY)];
+	//[self updateLoupeView: CGPointMake(motionPoint.x / _zoomX, motionPoint.y / _zoomY)];
+	[delegate imageEditView: self mouseMouseMovedToPoint: motionPoint];
 }
 
 - (void) myRemoveTrackingArea
@@ -261,7 +262,7 @@
 	}
 }
 //// ************ METHODEN FUER FREMDVIEWS:
-
+#if 0
 - (void)registerLoupeView:(id)loupView
 {
 	_loupeView = loupView;
@@ -295,6 +296,7 @@
 	[self updateColorWells: _currentColor];
 }
 
+#endif
 
 // **** BULLSHIT DER GEBRAUCHT WIRD 
 

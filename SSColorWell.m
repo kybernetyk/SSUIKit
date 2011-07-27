@@ -39,6 +39,16 @@
 	[self setNeedsDisplay: YES];
 }
 
+- (void) setColor: (NSColor *) color
+{
+	CGColorSpaceRef colorSpace = [[color colorSpace] CGColorSpace];
+    NSInteger componentCount = [color numberOfComponents];
+    CGFloat *components = (CGFloat *)alloca(componentCount*sizeof(CGFloat));
+    [color getComponents:components];
+    _color = CGColorCreate(colorSpace, components);
+	[self setNeedsDisplay: YES];
+}
+
 - (void) setColorWithCGColorRef: (CGColorRef)color
 {
 	_color = color;

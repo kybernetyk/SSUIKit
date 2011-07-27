@@ -14,7 +14,7 @@
 @interface SSImageEdit : NSView {
   // ids fuer upzudatende Views
 	id			_colorWell;
-	SSLoupe 	*_loupeView;
+//	SSLoupe 	*_loupeView;
 	
   // interne Variablen
 @private
@@ -24,10 +24,14 @@
     CGColorRef  _currentColor;
 	
 	NSTrackingArea *myTrackingArea;
+	
+	id delegate;
 }
 
 @property (retain)   CIFilter* filter;
 @property (readwrite, retain) NSImage *image;
+
+@property (readwrite, assign) id delegate;
 
 #if 0
 @property (readonly) NSImage* _orgImage;
@@ -35,6 +39,7 @@
 
 - (void)setZoomX:(float)xZoom;
 - (void)setZoomY:(float)yZoom;
-- (void)registerColorWell:(id)colorWell;
+
+- (NSColor *) colorAtPoint: (NSPoint) point;
 
 @end
